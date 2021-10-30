@@ -25,9 +25,9 @@ const getDefaultPresence = async () => {
     return {
         details: `${formatNumber(total)} / ${formatNumber(finalGoal)} pounds`,
         state: `Progress: ${formatPercentage(total, finalGoal)}%`,
-        largeImageKey: "logo",
+        largeImageKey: "large",
         largeImageText: "",
-        smallImageKey: "trash",
+        smallImageKey: "small",
         smallImageText: "",
 		buttons: [
             {
