@@ -1,0 +1,24 @@
+{
+  "name": "teamseas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node --experimental-modules build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/discord-rpc": "^4.0.0",
+    "@types/node": "^16.11.6",
+    "@types/node-fetch": "^3.0.3",
+    "typescript": "^4.5.0-beta"
+  }
+}
