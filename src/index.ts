@@ -33,6 +33,10 @@ const getDefaultPresence = async () => {
             {
                 label: "Donate now",
                 url: "https://teamseas.org"
+            },
+            {
+                label: "View github",
+                url: "https://github.com/Auxority/team-seas-rpc"
             }
         ],
 		instance: false
